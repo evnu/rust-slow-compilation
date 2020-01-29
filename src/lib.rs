@@ -71,7 +71,7 @@ use rustler::Decoder;
 use rustler::Term;
 
 impl Struct {
-    pub fn decode<'a>(term: Term<'a>) -> Result<Self, ()> {
+    pub fn large<'a>(term: Term<'a>) -> Result<Self, ()> {
         let terms = tuple::get_tuple(term).unwrap();
         Ok(Struct {
             field1: match Decoder::decode(terms[1]) {
