@@ -74,259 +74,259 @@ impl Struct {
     pub fn decode<'a>(term: Term<'a>) -> Result<Self, ()> {
         let terms = tuple::get_tuple(term).unwrap();
         Ok(Struct {
-            field1: match Decoder::decode(terms[1usize]) {
+            field1: match Decoder::decode(terms[1]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field2: match Decoder::decode(terms[2usize]) {
+            field2: match Decoder::decode(terms[2]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field3: match Decoder::decode(terms[3usize]) {
+            field3: match Decoder::decode(terms[3]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field4: match Decoder::decode(terms[4usize]) {
+            field4: match Decoder::decode(terms[4]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field5: match Decoder::decode(terms[5usize]) {
+            field5: match Decoder::decode(terms[5]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field6: match Decoder::decode(terms[6usize]) {
+            field6: match Decoder::decode(terms[6]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field7: match Decoder::decode(terms[7usize]) {
+            field7: match Decoder::decode(terms[7]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field8: match Decoder::decode(terms[8usize]) {
+            field8: match Decoder::decode(terms[8]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field9: match Decoder::decode(terms[9usize]) {
+            field9: match Decoder::decode(terms[9]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field10: match Decoder::decode(terms[10usize]) {
+            field10: match Decoder::decode(terms[10]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field11: match Decoder::decode(terms[11usize]) {
+            field11: match Decoder::decode(terms[11]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field12: match Decoder::decode(terms[12usize]) {
+            field12: match Decoder::decode(terms[12]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field13: match Decoder::decode(terms[13usize]) {
+            field13: match Decoder::decode(terms[13]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field14: match Decoder::decode(terms[14usize]) {
+            field14: match Decoder::decode(terms[14]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field15: match Decoder::decode(terms[15usize]) {
+            field15: match Decoder::decode(terms[15]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field16: match Decoder::decode(terms[16usize]) {
+            field16: match Decoder::decode(terms[16]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field17: match Decoder::decode(terms[17usize]) {
+            field17: match Decoder::decode(terms[17]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field18: match Decoder::decode(terms[18usize]) {
+            field18: match Decoder::decode(terms[18]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field19: match Decoder::decode(terms[19usize]) {
+            field19: match Decoder::decode(terms[19]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field20: match Decoder::decode(terms[20usize]) {
+            field20: match Decoder::decode(terms[20]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field21: match Decoder::decode(terms[21usize]) {
+            field21: match Decoder::decode(terms[21]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field22: match Decoder::decode(terms[22usize]) {
+            field22: match Decoder::decode(terms[22]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field23: match Decoder::decode(terms[23usize]) {
+            field23: match Decoder::decode(terms[23]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field24: match Decoder::decode(terms[24usize]) {
+            field24: match Decoder::decode(terms[24]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field25: match Decoder::decode(terms[25usize]) {
+            field25: match Decoder::decode(terms[25]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field26: match Decoder::decode(terms[26usize]) {
+            field26: match Decoder::decode(terms[26]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field27: match Decoder::decode(terms[27usize]) {
+            field27: match Decoder::decode(terms[27]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field28: match Decoder::decode(terms[28usize]) {
+            field28: match Decoder::decode(terms[28]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field29: match Decoder::decode(terms[29usize]) {
+            field29: match Decoder::decode(terms[29]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field30: match Decoder::decode(terms[30usize]) {
+            field30: match Decoder::decode(terms[30]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field31: match Decoder::decode(terms[31usize]) {
+            field31: match Decoder::decode(terms[31]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field32: match Decoder::decode(terms[32usize]) {
+            field32: match Decoder::decode(terms[32]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field33: match Decoder::decode(terms[33usize]) {
+            field33: match Decoder::decode(terms[33]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field34: match Decoder::decode(terms[34usize]) {
+            field34: match Decoder::decode(terms[34]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field35: match Decoder::decode(terms[35usize]) {
+            field35: match Decoder::decode(terms[35]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field36: match Decoder::decode(terms[36usize]) {
+            field36: match Decoder::decode(terms[36]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field37: match Decoder::decode(terms[37usize]) {
+            field37: match Decoder::decode(terms[37]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field38: match Decoder::decode(terms[38usize]) {
+            field38: match Decoder::decode(terms[38]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field39: match Decoder::decode(terms[39usize]) {
+            field39: match Decoder::decode(terms[39]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field40: match Decoder::decode(terms[40usize]) {
+            field40: match Decoder::decode(terms[40]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field41: match Decoder::decode(terms[41usize]) {
+            field41: match Decoder::decode(terms[41]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field42: match Decoder::decode(terms[42usize]) {
+            field42: match Decoder::decode(terms[42]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field43: match Decoder::decode(terms[43usize]) {
+            field43: match Decoder::decode(terms[43]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field44: match Decoder::decode(terms[44usize]) {
+            field44: match Decoder::decode(terms[44]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field45: match Decoder::decode(terms[45usize]) {
+            field45: match Decoder::decode(terms[45]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field46: match Decoder::decode(terms[46usize]) {
+            field46: match Decoder::decode(terms[46]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field47: match Decoder::decode(terms[47usize]) {
+            field47: match Decoder::decode(terms[47]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field48: match Decoder::decode(terms[48usize]) {
+            field48: match Decoder::decode(terms[48]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field49: match Decoder::decode(terms[49usize]) {
+            field49: match Decoder::decode(terms[49]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field50: match Decoder::decode(terms[50usize]) {
+            field50: match Decoder::decode(terms[50]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field51: match Decoder::decode(terms[51usize]) {
+            field51: match Decoder::decode(terms[51]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field52: match Decoder::decode(terms[52usize]) {
+            field52: match Decoder::decode(terms[52]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field53: match Decoder::decode(terms[53usize]) {
+            field53: match Decoder::decode(terms[53]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field54: match Decoder::decode(terms[54usize]) {
+            field54: match Decoder::decode(terms[54]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field55: match Decoder::decode(terms[55usize]) {
+            field55: match Decoder::decode(terms[55]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field56: match Decoder::decode(terms[56usize]) {
+            field56: match Decoder::decode(terms[56]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field57: match Decoder::decode(terms[57usize]) {
+            field57: match Decoder::decode(terms[57]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field58: match Decoder::decode(terms[58usize]) {
+            field58: match Decoder::decode(terms[58]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field59: match Decoder::decode(terms[59usize]) {
+            field59: match Decoder::decode(terms[59]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field60: match Decoder::decode(terms[60usize]) {
+            field60: match Decoder::decode(terms[60]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field61: match Decoder::decode(terms[61usize]) {
+            field61: match Decoder::decode(terms[61]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field62: match Decoder::decode(terms[62usize]) {
+            field62: match Decoder::decode(terms[62]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field63: match Decoder::decode(terms[63usize]) {
+            field63: match Decoder::decode(terms[63]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
-            field64: match Decoder::decode(terms[64usize]) {
+            field64: match Decoder::decode(terms[64]) {
                 Err(_) => return Err(()),
                 Ok(value) => value,
             },
