@@ -1,6 +1,5 @@
 #[allow(unused)]
-
-struct Struct {
+pub struct Struct {
     field1: i64,
     field2: i64,
     field3: i64,
@@ -67,8 +66,8 @@ struct Struct {
     field64: i64,
 }
 
-impl<'a> ::rustler::Decoder<'a> for Struct {
-    fn decode(term: ::rustler::Term<'a>) -> Result<Self, ::rustler::Error> {
+impl Struct {
+    pub fn decode<'a>(term: ::rustler::Term<'a>) -> Result<Self, ::rustler::Error> {
         let terms = ::rustler::types::tuple::get_tuple(term)?;
         Ok(Struct {
             field1: match ::rustler::Decoder::decode(terms[1usize]) {
