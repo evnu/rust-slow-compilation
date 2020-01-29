@@ -11,4 +11,3 @@ crate-type = ["dylib"]
 
 [dependencies]
 rustler = { git = "https://github.com/rusterlium/rustler" }
-rustler_codegen = { git = "https://github.com/evnu/rustler", branch = "master" }
