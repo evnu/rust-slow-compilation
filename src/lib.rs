@@ -66,13 +66,11 @@ pub struct Struct {
     field64: i64,
 }
 
-use rustler::types::tuple;
-use rustler::Decoder;
-use rustler::Term;
+use foreign_trait::*;
 
 impl Struct {
     pub fn large<'a>(term: Term<'a>) -> Result<Self, ()> {
-        let terms = tuple::get_tuple(term).unwrap();
+        let terms = foreign_trait::get_tuple(term).unwrap();
         Ok(Struct {
             field1: match Decoder::decode(terms[1]) {
                 Err(_) => return Err(()),

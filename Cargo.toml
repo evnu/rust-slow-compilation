@@ -10,4 +10,4 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = { git = "https://github.com/rusterlium/rustler" }
+foreign-trait = { path = "foreign-trait/" }
