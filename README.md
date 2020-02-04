@@ -12,12 +12,15 @@ This will output a markdown table similar to the following:
 
 |commit|measurement|desc|
 |------|-----------|----|
-|d90890b|50.21|Initial slow example|
-|03155fa|46.47|Impl on Struct instead of trait impl|
-|3dd603f|51.42|Use `use` to make it look simpler|
-|d650ffc|56.39|Remove ::rustler::Error|
-|fd04a12|55.17|Remove Box|
-|0f4eaf3|0.87|Replace match with map_err|
+|d90890b|117.12|Initial slow example|
+|03155fa|45.16|Impl on Struct instead of trait impl|
+|3dd603f|49.97|Use `use` to make it look simpler|
+|d650ffc|59.90|Remove ::rustler::Error|
+|fd04a12|56.11|Remove Box|
+|0f4eaf3|0.91|Replace match with map_err|
+|dc7dd61|52.25|Remove &str from Err|
+|c1dfe4f|57.43|Remove usize|
+|0c09343|0.49|Try to replicate with a local crate for Decoder|
 
 ## Adding a new benchmark
 
